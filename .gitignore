@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# PyCache
+_pycache_/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+*.csv
+*.xlsx
+*.json
+data/raw/
+data/processed/
+*.db
+*.sqlite
+
+# Model files
+*.pkl
+*.h5
+*.pt
+*.pth
+models/
+
+# Logs
+*.log
+logs/
+
+# ChromaDB / Vector Store
+.chroma/
+chroma_db/
+vector_store/
+
+# API Keys
+config.py
+secrets.py
+credentials.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude cache
+.claude/
